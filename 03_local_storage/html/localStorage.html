@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Example</title>
+    <link rel="stylesheet" href="../css/localStorage.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Local Storage Example</h1>
+
+        <div class="block">
+            <form id="saveForm">
+                <input type="text" id="keyInput" placeholder="Enter key" required>
+                <input type="text" id="valueInput" placeholder="Enter value" required>
+                <button type="submit" id="saveButton">Save to Local Storage</button>
+            </form>
+        </div>
+
+        <div style="margin-top: 10px; margin-bottom: 20px; height: 35px;" id="output"></div>
+
+        <div class="block">
+            <form id="getForm">
+                <input type="text" id="getKeyInput" placeholder="Enter key" required>
+                <button type="submit" id="getButton">Get from Local Storage</button>
+            </form>
+        </div>
+
+        <div class="block">
+            <form id="removeForm">
+                <input type="text" id="removeKeyInput" placeholder="Enter key" required>
+                <button type="submit" id="removeButton">Remove from Local Storage</button>
+            </form>
+        </div>
+
+        <div class="block">
+            <button id="clearButton">Clear Local Storage</button>
+        </div>
+    </div>
+
+    <script src="../js/localStorsge.js"></script>
+</body>
+
+</html>

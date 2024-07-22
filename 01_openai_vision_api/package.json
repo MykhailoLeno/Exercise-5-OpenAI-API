@@ -1,0 +1,22 @@
+{
+  "name": "openai_vision_api",
+  "version": "1.0.0",
+  "description": "this is the first part of exercise 5",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "oneImage": "node oneImage.js",
+    "manyImages": "node manyImages.js",
+    "detailImage": "node detailImage.js",
+    "base64EncodedImage": "node base64EncodedImage"
+  },
+  "author": "mykhailo_leno",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "openai": "^4.52.7",
+    "path": "^0.12.7"
+  }
+}
